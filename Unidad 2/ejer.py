@@ -26,7 +26,10 @@ capitals = {
 # Print the list and dictionary
 print( country )
 
-print( capitals )
+print( "capitals?" )
+for capit in capitals:
+  print(capit)
+  print(capitals[capit])
 """
 What response did you get?
 Why did the list and dictionary contents not print?
