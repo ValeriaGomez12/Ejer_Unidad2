@@ -13,7 +13,8 @@ for line in file:
     if dispo in line and len(dispo) > 3:
         isFound = True
         print(line)
-    if not isFound:
+        
+  if isFound == False
         print("tu dispositivo no se encontro")
         
 file.close()
