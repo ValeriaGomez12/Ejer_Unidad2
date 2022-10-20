@@ -4,17 +4,19 @@ Fecha: 20 de octubre del 2022
 '''
 
 devices=[]
-file=open("devices.txt","a")
+file = open("devices.txt","a")
+
 while True:
-    newItem= input("Se debera ingresar el nuevo newitem: ")
+    newItem = input("Se debera ingresar el nuevo newitem: ")
+    
     if newItem == "exit":
-        print("All done!")
+      break
         newItem=newItem.strip()
         break
-    else:
         file.write(newItem +"\n")
-    
+        
+print("¡¡All Done!!")    
 file.close()
-print(devices)
+
 
 
