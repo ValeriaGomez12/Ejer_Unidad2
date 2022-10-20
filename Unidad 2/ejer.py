@@ -25,6 +25,10 @@ capitals = {
 
 # Print the list and dictionary
 print( country )
+print( "country" )
+for country in country:
+  print(country)
+  print(country[country])
 
 print( "capitals?" )
 for capit in capitals:
