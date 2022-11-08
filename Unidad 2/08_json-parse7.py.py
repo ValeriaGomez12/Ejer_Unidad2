@@ -21,7 +21,7 @@ json_data = requests.get (url).json()
 print(json_data)
 
 #08_json.parse2.py print the url
-print("URL: " + (url))
+print("http://www.mapquestapi.com/directions/v2/route?: " + (url))
 json_data = requests.get(url).json()
 json_status = json_data["info"] ["statuscode"]
 if json_status == 0:
@@ -32,7 +32,7 @@ while True:
     orig = input("Starting Location: ")
     dest = input("Destination: ")
     url = main_api + urllib.parse.urlencode({"key": key, "from":orig, "to":dest})
-    print("URL: " + (url))
+    print("http://www.mapquestapi.com/directions/v2/route?" + (url))
 
 # add quit funtionality 08_json-parse4.py
 while True:
