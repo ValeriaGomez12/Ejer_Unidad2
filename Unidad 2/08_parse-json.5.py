@@ -5,7 +5,7 @@ import requests
 
 main_api = "http://www.mapquestapi.com/directions/v2/route?"
 
-key  = "your_api_key"
+key  =  "YrYI0yjA7ocl5gcgBEB551g3lqynmnHh"
 
 print("URL: " + (url))
 json_data = requests.get(url).json()
