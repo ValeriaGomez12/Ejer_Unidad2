@@ -4,7 +4,7 @@ import requests
 
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
 
-key  = "your_api_key"
+key  = "YrYI0yjA7ocl5gcgBEB551g3lqynmnHh"
 
 json_data = requests.get(url).json()
 json_status = json_data["info"]["statuscode"]
