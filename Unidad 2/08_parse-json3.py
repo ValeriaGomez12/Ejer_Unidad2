@@ -7,7 +7,7 @@ import requests
 main_api = "http://www.mapquestapi.com/directions/v2/route?"
 # este debera ser el  parámetro para punto de origen'''
 
-key  = "your_api_key"
+key  =  "YrYI0yjA7ocl5gcgBEB551g3lqynmnHh"
 
 url  = main_api + urllib.parse.urlencode({"key":key, "from":orig, "to":dest})
 print("URL: " + (url))
