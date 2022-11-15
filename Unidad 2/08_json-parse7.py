@@ -19,17 +19,20 @@ json_data = requests.get(url).json()
 print(json_data)
 #deber imprimir los datos del json 
  
- 
+
 print("URL: " + (url))
 #tendra que imprimir la url 
+
 
 json_data = requests.get(url).json()
 json_status = json_data["info"] ["statuscode"]
 #debra imprimir el estado de la solicitud 
 
+#Se imprimira la api Status
 if json_status == 0:
     print("API Status: " + str(json_status) + "= A successful route call.\n")
-
+  
+# se debera utilizar el while para las funciones 
 while True:
     orig = input("Starting Location: ")
     dest = input("Destination: ")
