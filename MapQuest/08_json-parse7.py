@@ -8,7 +8,7 @@ import urllib.parse
 import requests
 
 main_api = "http://www.mapquestapi.com/directions/v2/route?"
-key  = "XAH6hb1DHGuvudWKtLUid2U1G5DMHrrI"
+key  = "YrYI0yjA7ocl5gcgBEB551g3lqynmnHh"
 
 # The "while true" construct creates an endless loop.
 while True:
