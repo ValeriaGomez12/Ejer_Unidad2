@@ -45,3 +45,4 @@ while True:
     for each in json_data["route"]["legs"][0]["maneuvers"]:
         print((each["narrative"]) + " (" + str("{:.2f}".format((each["distance"])*1.61) + " km)"))
     print("=============================================\n")
+  #En el bucle del for a traves de cada lista de como se llevara acabo y se tendra que imprimir 
