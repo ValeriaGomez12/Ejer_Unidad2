@@ -3,6 +3,7 @@ import requests
 
 
 main_api = 'https://api.disneyapi.dev/character?'
+key = "90bcdcff6daf4589a32a79c5adc61719"
 
 while True:
     personaje = input("Ingresa el nombre de tu personaje favorito de Disney: ")
